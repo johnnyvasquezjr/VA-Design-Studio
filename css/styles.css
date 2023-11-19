@@ -1252,11 +1252,12 @@ ul.tag-list li {
 
 @media screen and (max-width: 768px) { 
   .splash-title-container {
-    width: 50%;
+    width: 45%;
   }
 
   .splash-title {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
 }
+
