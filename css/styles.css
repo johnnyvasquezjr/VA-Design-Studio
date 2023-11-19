@@ -1239,7 +1239,6 @@ ul.tag-list li {
 .splash-title {
   font-size: 20px;
   line-height: 20px;
-  font-weight: 300;
   font-family: 'Young Serif', serif;
   color: var(--secondary-color);
 }
@@ -1254,6 +1253,10 @@ ul.tag-list li {
 @media screen and (max-width: 768px) { 
   .splash-title-container {
     width: 45%;
+  }
+
+  .splash-title {
+    font-size: 15px;
   }
 
 }
