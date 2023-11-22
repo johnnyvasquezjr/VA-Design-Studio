@@ -23,8 +23,8 @@
 */
 
 :root {
-  --main-color: #fff;
-  --secondary-color: #000000;
+  --main-color: #faf8f4;
+  --secondary-color: #242424;
   --third-color: #6d6d6d;
 }
 
@@ -41,6 +41,7 @@ header {
 header .ion-ios-search-strong {
   font-size: 21px;
   float: right;
+  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 992px) {
@@ -1234,6 +1235,7 @@ ul.tag-list li {
   width: 30%;
   height: 20px;
   overflow: hidden;
+  background-color: var(--main-color);
 }
 
 .splash-title {
