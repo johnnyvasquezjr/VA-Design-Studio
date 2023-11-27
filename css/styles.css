@@ -30,6 +30,7 @@
 
 main {
   animation-delay: 2s;
+  background-color: var(--main-color);
 }
 
 header {
@@ -70,6 +71,10 @@ header .ion-ios-search-strong {
   header .search:hover .btn, header .search:focus .btn {
     top: 0;
   }
+}
+
+h2, h1 {
+  color: var(--secondary-color);
 }
 
 h4 {
