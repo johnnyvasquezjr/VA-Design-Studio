@@ -28,9 +28,12 @@
   --third-color: #6d6d6d;
 }
 
+.background {
+  background-color: var(--main-color);
+}
+
 main {
   animation-delay: 2s;
-  background-color: var(--main-color);
 }
 
 header {
@@ -971,9 +974,9 @@ footer.bottom a {
   12. Labels
 */
 .label {
-  border: 2px solid rgba(85, 85, 85, 0.6);
+  border: 2px solid var(--third-color);
   padding: 8px 11px 7px;
-  color: #555;
+  color: var(--third-color);
   display: inline-block;
   border-radius: 0;
   /* float: left; */
