@@ -26,6 +26,7 @@
   --main-color: #fff;
   --secondary-color: #242424;
   --third-color: #6d6d6d;
+  --fourth-color: #4d4d4d;
 }
 
 .background {
@@ -912,7 +913,7 @@ footer.bottom a {
 }
 
 .social-links li a {
-  color: var(--third-color);
+  color: var(--fourth-color);
   margin: 10px 15px;;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -920,7 +921,7 @@ footer.bottom a {
 }
 
 .social-links li a:hover {
-  color: var(--secondary-color);
+  color: var(--third-color);
 }
 
 /*
@@ -1274,3 +1275,4 @@ ul.tag-list li {
 .young {
   font-family: 'Young Serif', serif;
 }
+
