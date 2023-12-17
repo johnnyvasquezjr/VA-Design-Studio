@@ -1276,3 +1276,11 @@ ul.tag-list li {
   font-family: 'Young Serif', serif;
 }
 
+.gap {
+  padding: 5px;
+}
+
+.lightbox {
+  background: var(--main-color);
+}
+
