@@ -16906,7 +16906,7 @@ Made by Themanoid
 }
 
 #lightbox .controls .galleryNext:hover, #lightbox .controls .galleryClose:hover, #lightbox .controls .galleryPrev:hover {
-  background: #444;
+  background: #242424;
   color: #fff;
 }
 
@@ -16926,7 +16926,7 @@ Made by Themanoid
     font-size: 20px;
   }
   #lightbox .controls .galleryClose {
-    background: black !important;
+    background: grey !important;
     font-size: 30px;
   }
 }
