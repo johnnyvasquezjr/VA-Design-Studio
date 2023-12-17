@@ -16852,7 +16852,7 @@ Made by Themanoid
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: #fff;
   z-index: 9999;
   display: none;
 }
@@ -16885,13 +16885,13 @@ Made by Themanoid
 }
 
 #lightbox .controls {
-  background: #222;
+  background: #fff;
   width: 40px;
   height: 120px;
   position: absolute;
   z-index: 10000;
   bottom: 5%;
-  left: 0;
+  left: 10%;
 }
 
 #lightbox .controls .galleryNext, #lightbox .controls .galleryClose, #lightbox .controls .galleryPrev {
@@ -16899,7 +16899,7 @@ Made by Themanoid
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color: #ccc;
+  color: #242424;
   -webkit-transition: all .3s;
   transition: all .3s;
   cursor: pointer;
