@@ -16906,8 +16906,8 @@ Made by Themanoid
 }
 
 #lightbox .controls .galleryNext:hover, #lightbox .controls .galleryClose:hover, #lightbox .controls .galleryPrev:hover {
-  background: #242424;
-  color: #fff;
+  background: #fff;
+  color: #242424;
 }
 
 @media screen and (max-width: 768px) {
