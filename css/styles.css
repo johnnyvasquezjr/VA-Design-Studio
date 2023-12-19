@@ -1261,16 +1261,6 @@ ul.tag-list li {
 }
 
 
-@media screen and (max-width: 768px) { 
-  .splash-title-container {
-    width: 45%;
-  }
-
-  .splash-title {
-    font-size: 1.5rem;
-  }
-
-}
 
 .young {
   font-family: 'Young Serif', serif;
@@ -1283,4 +1273,29 @@ ul.tag-list li {
 .lightbox {
   background: var(--main-color);
 }
+
+
+.br {
+  border-right: .5px solid var(--third-color);
+}
+
+.logos {
+  width: 150px;
+}
+
+
+
+@media screen and (max-width: 767px) { 
+  .splash-title-container {
+    width: 45%;
+  }
+
+  .splash-title {
+    font-size: 1.5rem;
+  }
+
+  .logos {
+    width: 80px;}
+  }
+
 
