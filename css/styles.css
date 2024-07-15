@@ -24,7 +24,7 @@
 
 :root {
   --main-color: #fff;
-  --secondary-color: #242424;
+  --secondary-color: #363636;
   --third-color: #6d6d6d;
   --fourth-color: #4d4d4d;
 }
@@ -33,9 +33,9 @@
   background-color: var(--main-color);
 }
 
-main {
+/* main {
   animation-delay: 2s;
-}
+} */
 
 header {
   padding: 45px 0;
@@ -299,7 +299,7 @@ ul.navigation li:hover ul.dropdown {
 }
 
 .brand img {
-  width: 80px;
+  width: 60px;
 }
 
 @media screen and (max-width: 992px) {
@@ -883,11 +883,11 @@ footer {
 }
 
 footer.bottom {
-  background: #f5f5f5;
+  background: var(--main-color);
   padding-top: 100px;
   margin-top: 0;
   font-weight: 300;
-  color: #999;
+  color: var(--secondary-color);
 }
 
 footer.bottom a {
@@ -1220,7 +1220,7 @@ ul.tag-list li {
 
 
 
-.splash {
+/* .splash {
   position: absolute;
   top: 0;
   left: 0;
@@ -1258,12 +1258,13 @@ ul.tag-list li {
   display: inline-block;
   transform: translateY(20px);
   transition: 0.3s;
-}
+} */
 
 
 
 .young {
   font-family: 'Young Serif', serif;
+  color: var(--fourth-color);
 }
 
 .gap {
@@ -1286,15 +1287,17 @@ ul.tag-list li {
 
 
 @media screen and (max-width: 767px) { 
-  .splash-title-container {
+  /* .splash-title-container {
     width: 45%;
   }
 
   .splash-title {
     font-size: 1.5rem;
-  }
+  } */
 
   .logos {
     width: 80px;}
   }
 
+
+ 

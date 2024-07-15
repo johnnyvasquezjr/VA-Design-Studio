@@ -22,6 +22,8 @@
   ------------------------------*/
 /*
   01. Bootstrap
+
+  
 */
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -29,13 +31,21 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+:root {
+  --main-color: #fff;
+  --secondary-color: #363636;
+  --third-color: #6d6d6d;
+  --fourth-color: #4d4d4d;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 @import url(https://fonts.googleapis.com/css?family=Heebo:400,300,500);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 html {
   font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -180,7 +190,6 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
   cursor: pointer;
 }
 
