@@ -158,10 +158,10 @@ ul.navigation li a {
   padding: 15px 0;
   margin: 0 13px;
   color: var(--secondary-color);
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
-  -webkit-transition: all .3s;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 15px;
   transition: all .3s;
+  text-transform: uppercase;
 }
 
 ul.navigation li a:hover, ul.navigation li a.active {
