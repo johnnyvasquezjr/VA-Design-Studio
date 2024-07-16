@@ -159,7 +159,7 @@ ul.navigation li a {
   margin: 0 13px;
   color: var(--secondary-color);
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   transition: all .3s;
   text-transform: uppercase;
 }
