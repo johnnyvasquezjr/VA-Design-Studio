@@ -23,7 +23,7 @@
 */
 
 :root {
-  --main-color: #fff;
+  --main-color: #fafafa;
   --secondary-color: #363636;
   --third-color: #6d6d6d;
   --fourth-color: #4d4d4d;
@@ -33,9 +33,6 @@
   background-color: var(--main-color);
 }
 
-/* main {
-  animation-delay: 2s;
-} */
 
 header {
   padding: 45px 0;
@@ -83,6 +80,10 @@ h2, h1 {
 
 h4 {
   color: var(--third-color);
+}
+
+p {
+  font-size: 2rem;
 }
 
 
@@ -1251,6 +1252,10 @@ ul.tag-list li {
 
   .slide img {
     width: 100%;
+  }
+
+  .msrt {
+    font-family: "Montserrat", sans-serif;
   }
 
  
