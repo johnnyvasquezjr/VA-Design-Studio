@@ -18213,6 +18213,11 @@ ul.tag-list li {
     width: 100%;
   }
 
+  .msrtTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  }
+
   .msrt {
     font-family: "Montserrat", sans-serif;
   }
