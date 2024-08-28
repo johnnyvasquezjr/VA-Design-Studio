@@ -18179,7 +18179,7 @@ ul.tag-list li {
 }
 
 .gap {
-  padding: 5px;
+  padding: 1rem;
 }
 
 .lightbox {
@@ -18222,4 +18222,10 @@ ul.tag-list li {
     font-family: "Montserrat", sans-serif;
   }
 
- 
+  .space {
+    margin: 5rem;
+  }
+
+ .spaceLg {
+  margin: 10rem;
+ }
