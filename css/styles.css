@@ -81,6 +81,10 @@ audio:not([controls]) {
   height: 0;
 }
 
+li {
+  font-family: Montserrat;
+}
+
 [hidden],
 template {
   display: none;
