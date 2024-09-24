@@ -16987,6 +16987,10 @@ Made by Themanoid
   --fourth-color: #4d4d4d;
 }
 
+html {
+  background-color: var(--main-color);
+}
+
 .background {
   background-color: var(--main-color);
 }
