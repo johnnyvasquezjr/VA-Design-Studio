@@ -37,6 +37,7 @@
   --secondary-color: #363636;
   --third-color: #6d6d6d;
   --fourth-color: #4d4d4d;
+  --bg-color: #f7f6f3;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
@@ -16988,11 +16989,11 @@ Made by Themanoid
 }
 
 html {
-  background-color: var(--main-color);
+  background-color: var(--bg-color);
 }
 
 .background {
-  background-color: var(--main-color);
+  background-color: var(--bg-color);
 }
 
 
@@ -17847,7 +17848,7 @@ footer {
 }
 
 footer.bottom {
-  background: var(--main-color);
+  background: var(--bg-color);
   padding-top: 100px;
   margin-top: 0;
   font-weight: 300;
@@ -18191,7 +18192,7 @@ ul.tag-list li {
 }
 
 .lightbox {
-  background: var(--main-color);
+  background: var(--bg-color);
 }
 
 
