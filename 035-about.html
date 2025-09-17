@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Kinsey – AJAX Agency HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="description" content="Kinsey – AJAX Agency HTML5 Template"/>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"/>
+    <!-- Template Vendor's Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
+    <!-- Template Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- Favicons & App Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="img/content/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/content/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/content/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/content/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="img/content/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="img/content/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="img/content/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/content/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="img/content/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/content/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/content/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/content/favicon-16x16.png"/>
+    <link rel="manifest" href="img/content/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="img/content/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" type="image/x-icon" href="img/content/favicon.ico"/>
+  </head>
+  <body>
+    <div data-barba="wrapper">
+     
+      <!-- PAGE HEADER -->
+      <header
+        class="header header_fixed container-fluid js-header-sticky"
+        id="page-header"
+        data-arts-header-sticky-theme="bg-portfolio-6"
+        data-arts-header-logo="primary"
+        data-arts-header-sticky-logo="primary"
+        data-arts-header-overlay-theme-text="dark"
+      >
+        <!-- top bar -->
+        <div class="header__container header__controls">
+          <div class="row justify-content-between align-items-center">
+            <!-- logo -->
+            <div class="col-auto header__col header__col-left">
+              <a class="logo" href="index.html">
+                <div class="logo__wrapper-img">
+                  <img
+                    class="logo__img-primary"
+                    src="img/general/logo/va_logo_dark.svg"
+                    alt="VA Logo Dark"
+                    width="52"
+                    height="19"
+                  />
+                  <img
+                    class="logo__img-secondary"
+                    src="img/general/logo/va_logo_light.svg"
+                    alt="VA Logo Light"
+                    width="52"
+                    height="19"
+                  /></div
+              ></a>
+            </div>
+            <!-- - logo -->
+            <!-- burger icon -->
+            <div class="col-auto header__col d-flex align-items-center">
+              <div
+                class="ms-auto header__burger"
+                id="js-burger"
+                data-arts-cursor="data-arts-cursor"
+                data-arts-cursor-scale="1.7"
+                data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                data-arts-cursor-hide-native="true"
+              >
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+              </div>
+            </div>
+            <!-- - burger icon -->
+            <!-- "back" button for submenu nav -->
+            <div
+              class="header__overlay-menu-back"
+              id="js-submenu-back"
+              data-arts-cursor="data-arts-cursor"
+              data-arts-cursor-scale="1.7"
+              data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+              data-arts-cursor-hide-native="true"
+            >
+              <i class="material-icons">arrow_back</i>
+              <div class="header__label header__label_status">
+                <div class="js-header-label-submenu"></div>
+              </div>
+              <div class="header__label header__label_opened-back">Back</div>
+            </div>
+            <!-- - "back" button for submenu nav -->
+          </div>
+        </div>
+        <!-- - top bar -->
+
+        <!-- fullscreen overlay container -->
+        <div class="header__wrapper-overlay-menu" data-arts-theme-text="dark">
+          <div class="mask-reveal w-100 h-100">
+            <div class="mask-reveal__layer mask-reveal__layer-1 bg-portfolio-6">
+              <div class="mask-reveal__layer mask-reveal__layer-2">
+                <div class="row align-items-center h-100">
+                  <!-- menu & bottom widgets -->
+
+                  <!-- virtual scrolling container -->
+                  <div
+                    class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto"
+                  >
+                    <div class="header__wrapper-menu">
+                      <ul class="menu-overlay js-menu-overlay">
+                        
+                        <li class="current-menu-ancestor">
+                          <a href="index.html" data-pjax-link="overlayMenu">
+                            <div
+                              class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"
+                            >
+                              <span
+                                class="menu-overlay__subheading small mb-1"
+                              ></span>
+                              <div class="menu-overlay__heading h2">Home</div>
+                            </div></a
+                          >
+                        </li>
+
+                        <li>
+                          <a href="portfolio.html" data-pjax-link="overlayMenu">
+                            <div
+                              class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"
+                            >
+                              <span
+                                class="menu-overlay__subheading small mb-1"
+                              ></span>
+                              <div class="menu-overlay__heading h2">
+                                Projects
+                              </div>
+                            </div></a>
+                        </li>
+
+
+                        <li>
+                          <a href="#" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__heading h2">Blog</div>
+                            <div
+                              class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"
+                            >
+                              <span class="menu-overlay__subheading small mb-1"
+                                >/&nbsp;&nbsp;&nbsp;&nbsp;Coming Soon</span
+                              >
+                            </div></a
+                          >
+                        </li>
+
+
+                        <li>
+                          <a href="/contact.html" data-pjax-link="overlayMenu">
+                            <div
+                              class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"
+                            >
+                              <span
+                                class="menu-overlay__subheading small mb-1"
+                              ></span>
+                              <div class="menu-overlay__heading h2">
+                                Contact
+                              </div>
+                            </div></a
+                          >
+                        </li>
+
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- - fullscreen overlay container -->
+      </header>
+      <!-- - PAGE HEADER -->
+
+      
+      <!-- PAGE MAIN CONTAINER -->
+      <div class="js-smooth-scroll" id="page-wrapper" data-barba="container">
+        <!-- PAGE CONTENT -->
+        <main class="page-wrapper__content">
+          <!-- section MASTHEAD -->
+          <section class="section section-masthead text-center pt-xlarge" data-arts-os-animation="true">
+            <div class="container">
+              <h1 class="xl section-masthead__heading d-inline-block my-0 arts-split-text js-arts-split-text js-transition-heading" data-arts-split-text="lines, chars" data-arts-split-text-set="chars" data-arts-split-text-overflow-wrap="lines">The Visual Architect</h1>
+            </div>
+          </section>
+          <!-- - section MASTHEAD -->
+          <!-- section CONTENT & IMAGE -->
+          <div class="section mt-large pt-large mb-large">
+            <div class="section__bg section__bg-container-left bg-light-3"></div>
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-7 order-lg-2">
+                  <section class="section section-content mb-3">
+                    <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <h3 class="h3 mb-lg-0 mb-3">Prevailed sincerity behaviour to so do principle mr. As departure at no propriety zealously my. On dear rent if girl view. First on smart there he sense. Earnestly enjoyment her you resources. Brother chamber ten old against.</h3>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-3">
+                  <aside class="aside aside-counters section-content mb-2">
+                    <!-- counter -->
+                    <div class="aside-counters__wrapper-item">
+                      <div class="counter js-counter" data-arts-os-animation="true" data-arts-os-animation-name="animateCounter" data-arts-os-animation-params="{prefix: '', start: 0, target: 54, suffix: '', duration: 2.4}">
+                        <!-- animated number -->
+                        <div class="counter__number xl js-counter__number">54
+                        </div>
+                        <!-- - animated number -->
+                        <div class="counter__label">Projects Done</div>
+                      </div>
+                    </div>
+                    <!-- - counter -->
+                  </aside>
+                </div>
+              </div>
+              <div class="row g-4 mt-2">
+                <div class="col-lg-7 order-lg-2">
+                  <section class="section section-content mb-1 mb-md-0">
+                    <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <p>We invest in bespoke pieces for your home so your home really reflects your personal style. It’s really important that there is a synergy between the design of your home and your tastes.</p>
+                      <p>Use securing confined his shutters. Delightful as he it acceptance an solicitude discretion reasonably.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-3">
+                  <aside class="aside aside-counters section-content">
+                    <!-- counter -->
+                    <div class="aside-counters__wrapper-item">
+                      <div class="counter js-counter" data-arts-os-animation="true" data-arts-os-animation-name="animateCounter" data-arts-os-animation-params="{prefix: '', start: 0, target: 6, suffix: '', duration: 2.4}">
+                        <!-- animated number -->
+                        <div class="counter__number xl js-counter__number">6
+                        </div>
+                        <!-- - animated number -->
+                        <div class="counter__label">Team Members</div>
+                      </div>
+                    </div>
+                    <!-- - counter -->
+                  </aside>
+                </div>
+              </div>
+            </div>
+            <div class="section section-offset pt-large offset_bottom">
+              <div class="section-offset__content">
+                <section class="section section-image section-content section_w-container-right section_h-900">
+                  <div class="mask-reveal js-arts-parallax overflow w-100 h-100" data-arts-parallax-factor-y="0.05" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'right'}">
+                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                      <div class="mask-reveal__layer mask-reveal__layer-2">
+                        <div class="js-arts-parallax__scrub w-100 h-100"><img class="of-cover lazy-bg" src="#" data-src="img/assets/section/sectionImage/img-1.jpg" width="1920" height="1280" alt=""/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!-- - section CONTENT & IMAGE -->
+          <!-- section CONTENT & LIST -->
+          <div class="section py-large">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <section class="section section-content">
+                    <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <h2 class="h2 mb-lg-0 mb-3">Our Mission</h2>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-6">
+                  <section class="section section-list section-content">
+                    <div class="section-list__item">
+                      <div class="section-list__counter">
+                        <div class="section-list__counter-label subheading">01</div>
+                        <div class="section-list__wrapper-circle" data-arts-os-animation="true" data-arts-os-animation-name="animateStroke">
+                          <svg class="svg-circle" viewBox="0 0 60 60">
+                            <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="section-list__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                        <p class="h6">Become an established brand in the California's digital production industry</p>
+                      </div>
+                    </div>
+                    <div class="section-list__item">
+                      <div class="section-list__counter">
+                        <div class="section-list__counter-label subheading">02</div>
+                        <div class="section-list__wrapper-circle" data-arts-os-animation="true" data-arts-os-animation-name="animateStroke">
+                          <svg class="svg-circle" viewBox="0 0 60 60">
+                            <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="section-list__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                        <p class="h6">Research the market and differentiate from competitors through innovation</p>
+                      </div>
+                    </div>
+                    <div class="section-list__item">
+                      <div class="section-list__counter">
+                        <div class="section-list__counter-label subheading">03</div>
+                        <div class="section-list__wrapper-circle" data-arts-os-animation="true" data-arts-os-animation-name="animateStroke">
+                          <svg class="svg-circle" viewBox="0 0 60 60">
+                            <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="section-list__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                        <p class="h6">Create and grow a loyal customer base</p>
+                      </div>
+                    </div>
+                    <div class="section-list__item">
+                      <div class="section-list__counter">
+                        <div class="section-list__counter-label subheading">04</div>
+                        <div class="section-list__wrapper-circle" data-arts-os-animation="true" data-arts-os-animation-name="animateStroke">
+                          <svg class="svg-circle" viewBox="0 0 60 60">
+                            <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="section-list__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                        <p class="h6">Establish trust and credibility</p>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- - section CONTENT & LIST -->
+          <!-- section IMAGE -->
+          <section class="section section-image section-content section_w-container-left section_h-900">
+            <div class="mask-reveal js-arts-parallax overflow w-100 h-100" data-arts-parallax-factor-y="0" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'left'}" data-arts-parallax-factor-x="-0.05">
+              <div class="mask-reveal__layer mask-reveal__layer-1">
+                <div class="mask-reveal__layer mask-reveal__layer-2">
+                  <div class="js-arts-parallax__scrub w-100 h-100"><img class="of-cover lazy-bg" src="#" data-src="img/assets/section/sectionImage/img-2.jpg" width="1920" height="1280" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section IMAGE -->
+          <!-- section CONTENT -->
+          <div class="section py-large">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <section class="section section-content">
+                    <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <h2 class="h2 mb-lg-0 mb-3">Mission</h2>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-lg-6">
+                  <section class="section section-content">
+                    <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                      <p>Our goal is to showcase your project with photorealism.</p>
+                      <p>Creating a great project begins with understanding the space as well as the natural materials and light that shine on that space. It reveals texture and creates an atmosphere. A sense of comfort and tranquility.</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- - section CONTENT -->
+          
+          
+          <!-- section HEADER -->
+          <section class="section section-content bg-dark-2 pt-large pb-xsmall text-center" data-arts-theme-text="light">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="section__headline headline-reveal mb-md-4 mb-3" data-arts-os-animation="true" data-arts-os-animation-name="animateHeadline"></div>
+                    <h2 class="h2 my-0">Awards and Mentions</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section HEADER -->
+          <!-- section AWARDS -->
+          <section class="section section-content section-awards bg-dark-2 pb-large" data-arts-theme-text="light">
+            <div class="container">
+              <div class="row section-content__wrapper-item py-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                <div class="section-content__divider"></div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content mb-2 js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="h5">2021</div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <p>Interior Agency of the Year</p>
+                    <p>Best Interior Design Solution</p>
+                    <p>Multicultural Agency of the Year</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row section-content__wrapper-item py-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                <div class="section-content__divider"></div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content mb-2 js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="h5">2020</div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <p>Best Industrial Object Design</p>
+                    <p>Creative Landscape Composition</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row section-content__wrapper-item py-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                <div class="section-content__divider"></div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content mb-2 js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="h5">2019</div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <p>Agency of the Year</p>
+                    <p>Best Digital Solution</p>
+                    <p>Production Company of the Year</p>
+                    <p>Design Agency of the Year</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row section-content__wrapper-item py-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText">
+                <div class="section-content__divider"></div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content mb-2 js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="h5">2018</div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <p>Creative Landscape Composition</p>
+                    <p>Best Interior Design Solution</p>
+                    <p>Multicultural Agency of the Year</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section AWARDS -->
+          <!-- section HEADER -->
+          <section class="section section-content bg-portfolio-6 pt-large pb-xsmall text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="section-content__content content js-arts-split-text arts-split-text" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-split-text="lines" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                    <div class="section__headline headline-reveal mb-md-4 mb-3" data-arts-os-animation="true" data-arts-os-animation-name="animateHeadline"></div>
+                    <h2 class="h2 my-0">Clients</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- - section HEADER -->
+
+
+          <!-- section LOGOS -->
+          <section class="section section-logos section-content text-center bg-portfolio-6 pb-large">
+            <div class="container">
+              <table class="table table_no-outer-borders table-xs-flex">
+                <tbody>
+                  <tr>
+                   <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              src=""
+                              data-src="img/assets/evasolo.svg"
+                              width="150"
+                              alt="Eva Solo"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                     <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              src="#"
+                              data-src="img/assets/franke.svg"
+                              width="150"
+                              alt="Franke"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              data-src="img/assets/duravit.svg"
+                              width="170"
+                              alt="duravit logo"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                   <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              data-src="img/assets/b&o.svg"
+                              width="60"
+                              alt="bang & olufsen logo"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              data-src="img/assets/july.svg"
+                              width="80"
+                              alt="july logo"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div
+                        class="section-logos__wrapper-logo"
+                        data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump"
+                        data-arts-cursor="data-arts-cursor"
+                        data-arts-cursor-hide-native="true"
+                      >
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img
+                              src="#"
+                              data-src="img/assets/blanco.svg"
+                              width="150"
+                              alt="blanco logo"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!-- - section LOGOS -->
+        </main>
+        <!-- - PAGE CONTENT -->
+       <!-- PAGE FOOTER -->
+        <footer
+          class="footer pt-medium bg-portfolio-6"
+          id="page-footer"
+          data-arts-theme-text="dark"
+          data-arts-fixed-reveal="data-arts-fixed-reveal"
+          data-arts-fixed-reveal-from="-20vh"
+          data-arts-fixed-reveal-from-opacity="0"
+        >
+          <div class="footer__inner">
+            <div class="container">
+              <!-- widget area #2 [4 columns] -->
+              <div
+                class="row justify-content-between position-relative pt-md-5 pt-4 pb-md-3"
+              >
+                
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Quick Links</h2>
+                    <div>
+                      <ul class="menu text-center">
+                        <li class="menu-item"><a href="#">Home</a></li>
+                        <li class="menu-item">
+                          <a href="projects.html">Projects</a>
+                        </li>
+                        <li class="menu-item">
+                          <a href="037-blog-posts-list-backgrounds.html"
+                            >Blog</a
+                          >
+                        </li>
+                        <li class="menu-item">
+                          <a href="036-contacts.html">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Latest Works</h2>
+                    <div>
+                      <ul class="menu text-center">
+                        <li class="menu-item">
+                          <a href="mid_century_modern.html"
+                            >Mid Century Modern</a
+                          >
+                        </li>
+                        <li class="menu-item">
+                          <a href="mojave.html">Mojave</a>
+                        </li>
+                        <li class="menu-item">
+                          <a
+                            href="015-portfolio-details-masthead-boxed-vertical.html"
+                            >Hygge</a
+                          >
+                        </li>
+                        <li class="menu-item">
+                          <a
+                            href="016-portfolio-details-masthead-boxed-vertical.html"
+                            >Lodes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+
+
+
+              
+
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_kinsey_social">
+                    <h2 class="widgettitle">Socials</h2>
+                    <ul class="social">
+                      <li class="social__item">
+                        <a
+                          href="https://www.instagram.com/thevisualarchitect.io/"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-instagram"></ion-icon
+                        ></a>
+                      </li>
+                      <li class="social__item">
+                        <a
+                          href="https://www.behance.net/johnnyvasquezjr"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-behance"></ion-icon
+                        ></a>
+                      </li>
+                      <li class="social__item">
+                        <a
+                          href="https://www.pinterest.com/thevisualarchitect/"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-pinterest"></ion-icon
+                        ></a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+              <!-- - widget area #2 [4 columns] -->
+
+              <!-- widget area #3 [2 columns] -->
+              <div
+                class="row justify-content-between align-items-center position-relative pt-4"
+              >
+                <div class="footer__divider"></div>
+
+                <div class="col-lg-12 text-center">
+                  <section class="widget widget_text">
+                    <div class="textwidget">
+                      <p>
+                        <small
+                          >© 2025 The Visual Architect. All Rights
+                          Reserved.</small
+                        >
+                      </p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <!-- - widget area #3 [2 columns] -->
+            </div>
+          </div>
+        </footer>
+        <!-- - PAGE FOOTER -->
+      </div>
+      <!-- - PAGE MAIN CONTAINER -->
+    </div>
+    <canvas id="js-webgl"></canvas>
+    <!-- Cursor Follower -->
+    <div class="arts-cursor" id="js-arts-cursor">
+      <div class="arts-cursor__wrapper">
+        <!-- circles-->
+        <div class="arts-cursor__follower js-arts-cursor__follower">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
+            <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+          </svg>
+        </div>
+        <!-- arrows-->
+        <div class="arts-cursor__arrows">
+          <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left"></div>
+        </div>
+        <!-- label holder-->
+        <div class="arts-cursor__wrapper-label">
+          <div class="arts-cursor__label js-arts-cursor__label"></div>
+        </div>
+        <!-- icon holder-->
+        <div class="arts-cursor__wrapper-icon">
+          <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+        </div>
+      </div>
+    </div>
+    <!-- - Cursor Follower -->
+    <!-- Mobile Loading Spinner -->
+    <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+    <!-- - Mobile Loading Spinner -->
+    <!-- Curtain AJAX Transition -->
+    <div class="transition-curtain" id="js-page-transition-curtain"></div>
+    <!-- - Curtain AJAX Transition -->
+    <!-- PhotoSwipe Lightbox Container -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+      <!-- background -->
+      <div class="pswp__bg"></div>
+      <!-- - background -->
+      <!-- slider wrapper -->
+      <div class="pswp__scroll-wrap">
+        <!-- slides holder (don't modify)-->
+        <div class="pswp__container">
+          <div class="pswp__item">
+            <div class="pswp__img pswp__img--placeholder"></div>
+          </div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <!-- - slides holder (don't modify)-->
+        <!-- UI -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <!-- top bar -->
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- - top bar -->
+          <!-- left arrow -->
+          <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+          <!-- - left arrow -->
+          <!-- right arrow -->
+          <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+          <!-- - right arrow -->
+          <!-- slide caption holder (don't modify) -->
+          <div class="pswp__caption">
+            <div class="pswp__caption__center text-center"></div>
+          </div>
+          <!-- - slide caption holder (don't modify) -->
+        </div>
+        <!-- - UI -->
+      </div>
+      <!-- slider wrapper -->
+    </div>
+    <!-- - PhotoSwipe Lightbox Container -->
+
+
+    
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <!-- COMPONENTS -->
+    <script src="js/components.js"></script>
+    <!-- - COMPONENTS -->
+  </body>
+</html>

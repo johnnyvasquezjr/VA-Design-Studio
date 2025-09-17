@@ -1,190 +1,627 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <title>The Visual Architect | Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The Visual Architect is a digital design studio specializing in architectural and interior visualization. Pushing the boundaries of photorealism while keeping quality at the forefront of every render.">
-    <meta name="keywords" content="archviz, visual, cgi, visualization, architect, render, design">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="description" content="The Visual Architect is a digital design studio specializing in architectural visualization. Pushing the boundaries of photorealism while keeping quality at the forefront of every render."/>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="css/core.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" type="favicon" href="/images/logo/va_logo_dark.svg">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"/>
+    <!-- Template Vendor's Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
+    <!-- Template Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- Favicons & App Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="img/content/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/content/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/content/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/content/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="img/content/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="img/content/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="img/content/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/content/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="img/content/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/content/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/content/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/content/favicon-16x16.png"/>
+    <link rel="manifest" href="img/content/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="img/content/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" type="image/x-icon" href="img/general/logo/va_logo_dark.svg"/>
   </head>
 
-  <body class="smooth-transition no-lines background">
 
-    <div class="container-fluid"> 
-      <header>
-        <div class="container mt-lg">
-          <div class="col-md-3">
-            <a href="projects" class="brand"
-              ><img alt="Your Alternative text" src="images/logo/va_logo_dark.svg"
-            /></a>
-          </div>
-          <div class="col-md-6 text-center">
-            <div class="nav-trigger">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+  <body>
+    <div data-barba="wrapper">
+      <!-- PAGE HEADER -->
+      <header class="header header_fixed container-fluid js-header-sticky" id="page-header" data-arts-header-sticky-theme="bg-portfolio-6" data-arts-header-logo="primary" data-arts-header-sticky-logo="primary" data-arts-header-overlay-theme-text="dark">
+        <!-- top bar -->
+        <div class="header__container header__controls">
+          <div class="row justify-content-between align-items-center">
+            <!-- logo -->
+            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html">
+                <div class="logo__wrapper-img">
+                  <img class="logo__img-primary" src="img/general/logo/va_logo_dark.svg" alt="VA Logo Dark" width="52" height="19"/>
+                  <img class="logo__img-secondary" src="img/general/logo/va_logo_light.svg" alt="VA Logo Light" width="52" height="19"/>
+                </div></a>
             </div>
-            <ul class="navigation">
-              <li><a href="/projects" class="active">Projects</a>
-                <ul class="dropdown">
-                  <li><a href="/quadro">Quadro</a></li>
-                  <li><a href="/basalto">Basalto</a></li>
-                  <li><a href="/lagom">Lagom</a></li>
-                  <li><a href="/mojave">Mojave</a></li>
-                  <li><a href="/hygge">Hygge</a></li>
-                  <li><a href="/emerge">Beosound</a></li>
-                  <li><a href="/lodes">Lodes</a></li>
-                  <li><a href="/july">July</a></li>
-                </ul>
-              </li> 
-                <li>
-                  <a href="#">About</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Coming Soon</a></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="#">Blog</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Coming Soon</a></li>
-                  </ul>
-                </li>
-
-              <li> <a href="/contact">Contact</a>
-              </li>
-            </ul>
+            <!-- - logo -->
+            <!-- burger icon -->
+            <div class="col-auto header__col d-flex align-items-center">
+              <div class="ms-auto header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+              </div>
+            </div>
+            <!-- - burger icon -->
+            <!-- "back" button for submenu nav -->
+            <div class="header__overlay-menu-back" id="js-submenu-back" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"><i class="material-icons">arrow_back</i>
+              <div class="header__label header__label_status">
+                <div class="js-header-label-submenu"></div>
+              </div>
+              <div class="header__label header__label_opened-back">Back</div>
+            </div>
+            <!-- - "back" button for submenu nav -->
           </div>
         </div>
-      </header>
-
-      <section class="hero text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <h3 class="young">Every great design begins with an even better story.</h3>
-            </div>
-          </div>
-        </div>
-      </section>
+        <!-- - top bar -->
 
 
 
-      <section class="grid-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 grid classic">
-
-
-              <a href="/quadro" class="item">
-                <div class="thumb m-sm"><img alt="Quadro" src="images/quadro/quadro_title.jpg"></div>
-                <div class="caption">
-                </div></a>
-
-                <a href="/basalto" class="item">
-                  <div class="thumb m-sm"><img alt="Basalto" src="images/basalto/basalto_close_title.jpg"></div>
-                  <div class="caption">
-                  </div></a>
-
-                <a href="/lagom" class="item">
-                <div class="thumb m-sm"><img alt="lagom" src="images/lagom/lagom_title.jpg"></div>
-                <div class="caption">
-                </div></a>
-
-                <a href="#" class="item">
-                <div class="thumb m-sm"><img alt="mid modern" src="images/mid modern/mid_modern_title.jpg"></div>
-                <div class="caption">
-                </div></a>
-                
-                <a href="/mojave" class="item">
-                  <div class="thumb m-sm"><img alt="Mojave" src="images/Mojave/Mojave_Banner.jpg"></div>
-                  <div class="caption">
-                  </div></a>
+         <!-- fullscreen overlay container -->
+         <div class="header__wrapper-overlay-menu" data-arts-theme-text="dark">
+          <div class="mask-reveal w-100 h-100">
+            <div class="mask-reveal__layer mask-reveal__layer-1 bg-portfolio-6">
+              <div class="mask-reveal__layer mask-reveal__layer-2">
+                <div class="row align-items-center h-100">
+                  <!-- menu & bottom widgets -->
                   
-                  <a href="/hygge" class="item">
-                    <div class="thumb m-sm"><img alt="Hygge" src="images/hygge/hygge_banner.jpg"></div>
-                    <div class="caption">
-                    </div></a>
-
-                <a href="/emerge" class="item">
-                <div class="thumb m-sm"><img alt="Beosound Emerge" src="images/emerge/emerge_banner.jpg"></div>
-                <div class="caption">
-                </div></a>
-
-                <a href="/lodes" class="item">
-                  <div class="thumb m-sm"><img alt="Lodes Flar" src="images/Lodes/Lodes-_banner.jpg"></div>
-                  <div class="caption">
-                  </div></a>
-              
-
-                  <a href="/july" class="item">
-                    <div class="thumb m-sm"><img alt="July Luggage" src="images/July/july_banner.jpg"></div>
-                    <div class="caption">
-                    </div></a>
-
-                <a href="#" class="item">
-                  <div class="thumb m-sm"><img alt="Woodlands" src="images/portfolio/woodlands_banner.jpg"></div>
-                  <div class="caption">
-                  </div></a>
+                    <!-- virtual scrolling container -->
+                    <div class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto">
+                      <div class="header__wrapper-menu">
+                        <ul class="menu-overlay js-menu-overlay">
 
 
+                          <li class=""><a href="index.html" data-pjax-link="overlayMenu">
+                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1"></span>
+                                <div class="menu-overlay__heading h2">Home</div>
+                              </div></a>                            
+                          </li>
+
+
+                          <li class="current-menu-ancestor menu-item-has-children"><a href="portfolio.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1"></span>
+                              <div class="menu-overlay__heading h2">Projects</div>
+                            </div></a>
+
+                        <!-- <ul class="sub-menu pointer-events-none">
+                            <li><a href="#" data-pjax-link="overlayMenu">
+                                <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                  <div class="menu-overlay__heading h3">MOJAVE</div>
+                                </div></a>
+                            </li>
+
+                            <li><a href="#" data-pjax-link="overlayMenu">
+                                <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                  <div class="menu-overlay__heading h3">MID CENTURY MODERN</div>
+                                </div></a>
+                            </li>
+
+                            <li><a href="#" data-pjax-link="overlayMenu">
+                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                <div class="menu-overlay__heading h3">HYGGE</div>
+                              </div></a>
+                          </li>
+
+                          <li><a href="#" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                              <div class="menu-overlay__heading h3">LODES</div>
+                            </div></a>
+                        </li>
+
+                        <li><a href="#" data-pjax-link="overlayMenu">
+                          <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                            <div class="menu-overlay__heading h3">WOODLANDS</div>
+                          </div></a>
+                      </li>
+
+                      <li><a href="#" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                          <div class="menu-overlay__heading h3">FARNSWORTH HOUSE</div>
+                        </div></a>
+                      </li>
+
+                      <li><a href="#" data-pjax-link="overlayMenu">
+                      <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                        <div class="menu-overlay__heading h3">JULY</div>
+                      </div></a>
+                      </li>
+
+                      <li><a href="#" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                          <div class="menu-overlay__heading h3">BANG & OLUFSEN</div>
+                        </div></a>
+                      </li>
+
+                          </ul> -->
+                        </li>
+
+
+
+                          <li class="menu-item-has-children"><a href="#" data-pjax-link="overlayMenu">
+                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1"></span>
+                                <div class="menu-overlay__heading h2">Blog</div>
+                              </div></a>
+                            <!-- <ul class="sub-menu pointer-events-none">
+                              <li><a href="#" data-pjax-link="overlayMenu">
+                                  <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                    <div class="menu-overlay__heading h3">Color Theory</div>
+                                  </div></a>
+                              </li>
+
+                              <li><a href="#" data-pjax-link="overlayMenu">
+                                  <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                    <div class="menu-overlay__heading h3">Coming Soon</div>
+                                  </div></a>
+                              </li>
+                            </ul> -->
+                          </li>
+
+
+                          <li><a href="/contact.html" data-pjax-link="overlayMenu">
+                              <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines"><span class="menu-overlay__subheading small mb-1"></span>
+                                <div class="menu-overlay__heading h2">Contact</div>
+                              </div></a>
+                          </li>
+
+
+                        </ul>
+                      </div>
+                    </div>
+                   
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+        <!-- - fullscreen overlay container -->
+      </header>
+      <!-- - PAGE HEADER -->
 
-
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 text-center">
-              <p><span class="young">The Visual Architect</span><br>Digital Design Studio</p>
-            </div>
-            <div class="col-md-3 text-center">
-              <p class="young">Waco, TX</p>
-            </div>
-            <div class="col-md-3 text-center">
-              <a href="mailto:johnny@thevisualarchitect.io"><p>johnny@thevisualarchitect.io</p></a>
-            </div>
-            <div class="col-md-3 text-center">
-              <ul class="social-links">
-                <li> <a href="https://www.instagram.com/thevisualarchitect.io/" target="_blank" rel="noopener"><ion-icon name="logo-instagram" size="large"></ion-icon></a></li>
-                <li> <a href="https://www.behance.net/johnnyvasquezjr" target="_blank" rel="noopener"><ion-icon name="logo-behance" size="large"></ion-icon></a></li>
-                <li> <a href="https://www.pinterest.com/thevisualarchitect/" target="_blank" rel="noopener"><ion-icon name="logo-pinterest" size="large"></ion-icon></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <footer class="bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">&copy; 2025 The Visual Architect. All rights reserved.</div>
-          </div>
-        </div>
-      </footer>
       
-    </div>
-   
+      <!-- PAGE MAIN CONTAINER -->
+      <div class="js-smooth-scroll" id="page-wrapper" data-barba="container">
+        <!-- PAGE CONTENT -->
+        <main class="page-wrapper__content">
+          <!-- section HORIZONTAL SCROLLING COLUMNS -->
+          <section class="section section-fullheight section-content text-center section-fullscreen-columns section-horizontal-scroll js-section-horizontal-scroll bg-portfolio-6" data-arts-horizontal-scroll="container" data-arts-horizontal-scroll-type="modular" data-arts-horizontal-scroll-toggle-class="in-view">
+            <div class="section__content section-horizontal-scroll__wrapper" data-arts-horizontal-scroll="wrapper">
+              <div class="d-flex flex-wrap flex-lg-nowrap w-100vw h-lg-100vh-fix-bar">
 
-    <script src="https://kit.fontawesome.com/4af7c82861.js" crossorigin="anonymous"></script>
-    <script src="js/assets/jquery.js"></script>
-    <script src="js/assets/bootstrap.js"></script>
-    <script src="js/assets/imagesloaded.pkgd.min.js"></script>
-    <script src="js/assets/packery.pkgd.min.js"></script>
-    <script src="js/assets/velocity.min.js"></script>
-    <script src="js/assets/typed.min.js"></script>
-    <script src="modules/titan-slider/titan-slider.js"></script>
-    <script src="modules/tera-lightbox/tera-lightbox.js"></script>
-    <script src="js/assets/animsition.js"></script>
-    <script src="js/functions.js"></script>
+
+                <!-- Quadro -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6" data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="#" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.6)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class="lazy-bg" src="#" data-src="img/wm website.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Belton, Texas                                  
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2025</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Julep -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6 data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="julep.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.6)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class="lazy-bg" src="#" data-src="img/projects/julep/julep-banner.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Tacchini, Italia
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2025</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Mojave -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6" data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="mojave.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.75)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class=" lazy-bg" src="#" data-src="img/projects/mojave/mojaveTitle.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Joshua Tree, California
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2023</li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                  <!-- Hygge -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6" data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="022-portfolio-details-masthead-boxed-vertical.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.6)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class=" lazy-bg" src="#" data-src="img/projects/hygge/hygge.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Bozeman, Montana
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2024</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Mid  Modern -->
+                 <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6" data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="mid_modern.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.75)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class=" lazy-bg" src="#" data-src="img/projects/midmodern/midmodern.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Austin, Texas
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2025</li>
+                              </ul>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Lagom -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6 data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="lagom.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.6)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class="lazy-bg" src="#" data-src="img/projects/lagom/lagom.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+
+                  
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>Waco, Texas
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2025</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Quadro -->
+                <div class="section-fullscreen-columns__border col-xl-4 col-lg-5 col-sm-6 col-12 mask-reveal" data-arts-horizontal-scroll="section" data-arts-os-animation="true" data-arts-os-animation-name="animateMask" data-arts-os-animation-params="{direction: 'down', scale: 1}">
+                  <div class="mask-reveal__layer mask-reveal__layer-1">
+                    <div class="mask-reveal__layer mask-reveal__layer-2">
+                      <div class="pt-xlarge pb-small container-fluid h-100 bg-portfolio-6 data-arts-theme-text="dark">
+                        <div class="figure-project d-flex justify-content-between flex-column w-100 h-100" data-arts-hover-class="hover-zoom-underline"><a class="figure-project__wrapper-img h-100 mask-reveal js-arts-cursor-no-highlight" href="quadro.html" data-arts-hover="trigger" data-arts-cursor="true" data-arts-cursor-hide-native="true" data-arts-cursor-label="" data-arts-cursor-scale="1.5" data-arts-cursor-color="#fff" data-arts-cursor-background-color="rgba(54, 54, 54, 0.6)">
+                            <div class="hover-zoom__inner">
+                              <div class="mask-reveal__layer mask-reveal__layer-1">
+                                <div class="mask-reveal__layer mask-reveal__layer-2"><img class="lazy-bg" src="#" data-src="img/projects/lagom/lagom.jpg" width="1884" height="2700" alt=""/>
+                                </div>
+
+                  
+                              </div>
+                            </div></a>
+                          <div class="figure-project__content mt-4" data-arts-os-animation="true" data-arts-os-animation-name="animateText" data-arts-os-animation-params="{delay: 0.3}">
+                            <div class="section-fullscreen-columns__subheading mb-2 figure-project__wrapper-meta arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="words" data-arts-split-text-overflow-wrap="lines">
+                              <ul class="post-meta post-meta_mini post-meta_mini-small">
+                                <li>San Diego, California
+                                  <div class="post-meta__divider"></div>
+                                </li>
+                                <li>2024</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </section>
+          <!-- - section HORIZONTAL SCROLLING COLUMNS -->
+        </main>
+        <!-- - PAGE CONTENT -->
+
+
+        <!-- PAGE FOOTER -->
+        <footer class="footer pt-medium bg-portfolio-6" id="page-footer" data-arts-theme-text="dark" data-arts-fixed-reveal="data-arts-fixed-reveal" data-arts-fixed-reveal-from="-20vh" data-arts-fixed-reveal-from-opacity="0">
+          <div class="footer__inner">
+            <div class="container">
+
+              <!-- widget area #2 [4 columns] -->
+              <div class="row justify-content-between position-relative pt-md-5 pt-4 pb-md-3">
+                <div class="footer__divider"></div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Quick Links</h2>
+                    <div>
+                      <ul class="menu text-center">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="projects.html">Projects</a></li>
+                        <li class="menu-item"><a href="037-blog-posts-list-backgrounds.html">Blog</a></li>
+                        <li class="menu-item"><a href="036-contacts.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_nav_menu">
+                    <h2 class="widgettitle">Latest Works</h2>
+                    <div>
+                      <ul class="menu text-center">
+                        <li class="menu-item"><a href="mid_century_modern.html">Mid Modern</a></li>
+                        <li class="menu-item"><a href="mojave.html">Mojave</a></li>
+                        <li class="menu-item"><a href="015-portfolio-details-masthead-boxed-vertical.html">Hygge</a></li>
+                        <li class="menu-item"><a href="016-portfolio-details-masthead-boxed-vertical.html">Lodes</a></li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+                
+                <!-- <div class="col-lg-3 col-sm-12 text-center">
+                  <section class="widget widget_text">
+                    <div class="textwidget"><p><a href="#">johnny@thevisualarchitect.io</a>
+                  </section>
+                </div> -->
+
+               <div class="col-lg-4 col-sm-12 text-center">
+                  <section class="widget widget_kinsey_social">
+                    <h2 class="widgettitle">Socials</h2>
+                    <ul class="social">
+                      <li class="social__item">
+                        <a
+                          href="https://www.instagram.com/thevisualarchitect.io/"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-instagram"></ion-icon
+                        ></a>
+                      </li>
+                      <li class="social__item">
+                        <a
+                          href="https://www.behance.net/johnnyvasquezjr"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-behance"></ion-icon
+                        ></a>
+                      </li>
+                      <li class="social__item">
+                        <a
+                          href="https://www.pinterest.com/thevisualarchitect/"
+                          rel="noopener"
+                          target="_blank"
+                          ><ion-icon name="logo-pinterest"></ion-icon
+                        ></a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+              </div>
+              <!-- - widget area #2 [4 columns] -->
+
+              <!-- widget area #3 [2 columns] -->
+              <div class="row justify-content-between align-items-center position-relative pt-4">
+                <div class="footer__divider"></div>
+                
+                <div class="col-lg-12 text-center">
+                  <section class="widget widget_text">
+                    <div class="textwidget"><p><small>© 2025 <span>The Visual Architect</span>All Rights Reserved.</small></p></div>
+                  </section>
+                </div>
+              </div>
+              <!-- - widget area #3 [2 columns] -->
+
+            </div>
+          </div>
+        </footer>
+        <!-- - PAGE FOOTER -->
+      </div>
+      <!-- - PAGE MAIN CONTAINER -->
+    </div>
+    <canvas id="js-webgl"></canvas>
+    <!-- Cursor Follower -->
+    <div class="arts-cursor" id="js-arts-cursor">
+      <div class="arts-cursor__wrapper">
+        <!-- circles-->
+        <div class="arts-cursor__follower js-arts-cursor__follower">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
+            <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+          </svg>
+        </div>
+        <!-- arrows-->
+        <div class="arts-cursor__arrows">
+          <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down"></div>
+          <div class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left"></div>
+        </div>
+        <!-- label holder-->
+        <div class="arts-cursor__wrapper-label">
+          <div class="arts-cursor__label js-arts-cursor__label"></div>
+        </div>
+        <!-- icon holder-->
+        <div class="arts-cursor__wrapper-icon">
+          <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+        </div>
+      </div>
+    </div>
+    <!-- - Cursor Follower -->
+    <!-- Mobile Loading Spinner -->
+    <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+    <!-- - Mobile Loading Spinner -->
+    <!-- Curtain AJAX Transition -->
+    <div class="transition-curtain" id="js-page-transition-curtain"></div>
+    <!-- - Curtain AJAX Transition -->
+    <!-- PhotoSwipe Lightbox Container -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+      <!-- background -->
+      <div class="pswp__bg"></div>
+      <!-- - background -->
+      <!-- slider wrapper -->
+      <div class="pswp__scroll-wrap">
+        <!-- slides holder (don't modify)-->
+        <div class="pswp__container">
+          <div class="pswp__item">
+            <div class="pswp__img pswp__img--placeholder"></div>
+          </div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <!-- - slides holder (don't modify)-->
+        <!-- UI -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <!-- top bar -->
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- - top bar -->
+          <!-- left arrow -->
+          <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+          <!-- - left arrow -->
+          <!-- right arrow -->
+          <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+          <!-- - right arrow -->
+          <!-- slide caption holder (don't modify) -->
+          <div class="pswp__caption">
+            <div class="pswp__caption__center text-center"></div>
+          </div>
+          <!-- - slide caption holder (don't modify) -->
+        </div>
+        <!-- - UI -->
+      </div>
+      <!-- slider wrapper -->
+    </div>
+    <!-- - PhotoSwipe Lightbox Container -->
+
+    <!-- VENDOR SCRIPTS -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/components.js"></script>
+    <!-- - COMPONENTS -->
   </body>
 </html>
