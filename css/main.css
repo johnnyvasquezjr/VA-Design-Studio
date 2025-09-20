@@ -11916,6 +11916,11 @@ select {
 }
 
 .moneto {
-  font
+  font-family: 'Moneta';
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 300;
 }
 
